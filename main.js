@@ -33,3 +33,20 @@ console.log(e);
 var f = 5;
 f = f**3;
 console.log(f);
+
+// 指定運算子，適用於 + - * / % **
+var num1 = 10;
+// num1 = num1 + 5;
+num1 **= 5;
+console.log("指定運算子：" + num1);
+
+// 自訂函式(方法) function、method
+// 語法：
+// 函式 函式名稱(參數1，參數2，...) { 程式內容 }
+function functionA(){
+    console.log("我是函式 A");
+}
+
+// 需要呼叫才會執行
+functionA();
+functionA();
