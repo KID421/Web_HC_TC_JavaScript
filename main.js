@@ -137,3 +137,17 @@ console.log("=== 的結果：" + (testC === testD)); // 比較值與類型
 var testE = true;
 
 console.log("顛倒：" + !testE);
+
+// 並且 &&
+// 只要有一個 false 結果就是 false
+console.log(true && true);          // t
+console.log(true && false);         // f
+console.log(false && true);         // f
+console.log(false && false);        // f
+
+// 或者 ||
+// 只要有一個 true 結果就是 true
+console.log(true || true);          // t
+console.log(true || false);         // t
+console.log(false || true);         // t
+console.log(false || false);        // f
