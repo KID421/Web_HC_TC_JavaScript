@@ -23,7 +23,7 @@ a = a % 3;
 
 console.log(a);
 
-// HTML5，CSS3，JS ES6
+// HTML 5，CSS 3，JS ES6
 // ++ 遞增1 -- 遞減1
 var e = 7;
 e++;
