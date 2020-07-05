@@ -125,3 +125,15 @@ var testA = 100;
 var testB = 50;
 
 console.log(testA != testB);
+
+// == 與 === 的差異
+var testC = 7;
+var testD = "7";
+
+console.log("== 的結果：" + (testC == testD));   // 比較值
+console.log("=== 的結果：" + (testC === testD)); // 比較值與類型
+
+// 邏輯運算子
+var testE = true;
+
+console.log("顛倒：" + !testE);
