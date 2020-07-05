@@ -50,3 +50,19 @@ function functionA(){
 // 需要呼叫才會執行
 functionA();
 functionA();
+
+function addTen(number){
+
+    number += 10;
+
+    console.log("加十：" + number);
+}
+
+addTen(7);
+addTen(100);
+
+function mul(a, b){
+    console.log("數字相乘的結果：" + (a * b));
+}
+
+mul(999, 7);
