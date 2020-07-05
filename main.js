@@ -66,3 +66,33 @@ function mul(a, b){
 }
 
 mul(999, 7);
+
+// 物件 { 物件資料名稱：物件資料值 }
+var car = {
+    brand: "BWM",
+    cc: 2000,
+    color: "gold",
+    
+    drive: function() {
+        console.log("開車中...");
+    }
+}
+
+console.log("汽車的牌子：" + car.brand);
+
+car.drive();
+
+// 練習事件
+var box2 = document.getElementById("box2");
+
+box2.onclick = () => {
+    console.log("點擊!");
+}
+
+box2.onmouseenter = () => {
+    console.log("滑入!");
+}
+
+box2.onmouseleave = () => {
+    console.log("滑出!");
+}
