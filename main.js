@@ -96,3 +96,32 @@ box2.onmouseenter = () => {
 box2.onmouseleave = () => {
     console.log("滑出!");
 }
+
+// 陣列 Array
+
+var numberA = 10;
+var numberB = 100;
+var numberC = 40;
+
+var numberObject = {
+    A: 10,
+    B: 100,
+    C: 40
+}
+
+// 陣列資料
+var numbers = [10, 100, 40, 9];
+
+console.log("陣列第三筆資料：" + numbers[2]);
+
+numbers[0] = 999;
+
+console.log("陣列第一筆資料：" + numbers[0]);
+
+console.log("陣列的數量：" + numbers.length);
+
+// 比較運算子 > < >= <= == !=
+var testA = 100;
+var testB = 50;
+
+console.log(testA != testB);
