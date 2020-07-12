@@ -211,3 +211,12 @@ var products = ["冰美式", "卡布奇諾", "摩卡"];
 for (let i = 0; i < products.length; i++) {
     console.log(products[i]);
 }
+
+// 透過類別取得複數元素 - 結果為陣列
+var ps = document.getElementsByClassName("product");
+
+console.log(ps);
+
+for (let i = 0; i < ps.length; i++) {
+    ps[i].innerText = products[i];
+}
