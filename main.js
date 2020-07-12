@@ -203,7 +203,11 @@ for (let i = 0; i < 10; i++) {
     console.log("迴圈：" + i);
 }
 
+// 陣列
+var products = ["冰美式", "卡布奇諾", "摩卡"];
 
+// products.length 陣列.長度(數量) 3
 
-
-// var 與 let
+for (let i = 0; i < products.length; i++) {
+    console.log(products[i]);
+}
