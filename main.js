@@ -151,3 +151,22 @@ console.log(true || true);          // t
 console.log(true || false);         // t
 console.log(false || true);         // t
 console.log(false || false);        // f
+
+// 判斷式 if
+// 語法 Syntax
+// if (布林值) { 當布林值為 true 會執行 }
+if (true) {
+    console.log("我是判斷式~");
+}
+
+// else 否則
+// if (布林值) { 當布林值為 true 會執行 }
+// else { 當布林值為 false 會執行 }
+
+var boolTest = false;
+
+if (boolTest) {
+    console.log("布林值為 true!");
+} else {
+    console.log("布林值為 false!");
+}
