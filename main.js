@@ -234,7 +234,7 @@ const pi = 3.14159;
 
 var countA = 10;
 var countA = 7;
-// let countA = 5; // 重複瀏覽器顯示錯誤
+// let countA = 5; // 重複 瀏覽器顯示錯誤
 
 {
     let countA = 5;
@@ -242,3 +242,19 @@ var countA = 7;
 }
 
 console.log(countA);
+
+var countB = 99;
+
+{
+    var countB = 77;
+}
+
+console.log(countB);
+
+let countC = 99;
+
+{
+    let countC = 77;
+}
+
+console.log(countC);
