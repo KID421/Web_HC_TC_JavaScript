@@ -170,3 +170,13 @@ if (boolTest) {
 } else {
     console.log("布林值為 false!");
 }
+
+// 如果 分數 >= 60 ：及格
+// 如果 分數 <= 60 ：補考
+// 如果 分數 <= 40 ：被當
+var score = document.getElementById("score");
+var result = document.getElementById("result");
+
+score.onchange = () => {
+    result.innerText = "變更中...";
+}
