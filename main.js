@@ -172,11 +172,21 @@ if (boolTest) {
 }
 
 // 如果 分數 >= 60 ：及格
-// 如果 分數 <= 60 ：補考
-// 如果 分數 <= 40 ：被當
+// 如果 分數 >= 40 ：補考
+// 如果 分數 ：被當
 var score = document.getElementById("score");
 var result = document.getElementById("result");
 
 score.onchange = () => {
-    result.innerText = "變更中...";
+    var s = parseInt(score.value);  // 文字轉整數
+
+    if (s >= 60) {
+        result.innerText = "分數：" + s + " - 及格";
+    }
+    else if (s >= 40) {
+        result.innerText = "分數：" + s + " - 補考";
+    }
+    else {
+        result.innerText = "分數：" + s + " - 被當";
+    }
 }
